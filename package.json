@@ -1,6 +1,10 @@
 {
   "name": "Luhn",
   "version": "0.0.0",
+  "repository" : {
+    "type" : "git",
+    "url" : "git@github.com:flatiron-school-curriculum/luhn.js.git"
+  },
   "description": "Luhn",
   "dependencies": {
     "grunt": "~0.4.1",
