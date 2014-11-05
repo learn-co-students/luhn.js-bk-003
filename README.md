@@ -4,17 +4,6 @@ tags: math, oo
 ---
 
 # Luhn
-## Getting Started
-
-Run `npm install`
-
-## Tests
-
-Review the `luhn.js` file inside the `lib` directory, and then the `luhn.spec.js` file inside the `spec` directory. Review each of the tests, and then start implementing your solutions to make each test pass in `luhn.js`.
-
-Run `grunt watch` then edit your files. Grunt will watch for changes. Grunt
-will only run tests that start with `it`. When you finish passing a test,
-remove the `x` from `xit` to convert it to a runnable test.
 
 ## Background
 
@@ -38,3 +27,21 @@ Write a program that, given a number
   - This should treat, for example, "2323 2005 7766 3554" as valid.
 - Can add a check digit to make the number valid per the Luhn formula.
   - This should give "2323 2005 7766 3554" in response to "2323 2005 7766 355".
+
+## [Underscore](http://underscorejs.org/)
+Underscore is a very popular JavaScript library that brings many of the functionality you know and love from Ruby to JavaScript.  Just checkout the docs!
+
+## Before You Start
+```shell
+# Install jasmine:
+gem sources -a http://flatiron:33west26@gems.flatironschool.com
+gem install ironboard
+
+# Run Jasmine test suite:
+ironboard  # runs only in the terminal
+ironboard -b # runs also in the browser
+```
+
+## Resources
+* [Luhn Algorithm](http://en.wikipedia.org/wiki/Luhn_algorithm)
+* [Underscore.JS](http://underscorejs.org/)

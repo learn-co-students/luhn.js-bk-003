@@ -1,9 +1,8 @@
 'use strict';
 
-var Luhn = require('../lib/luhn');
 
 describe('Luhn',function() {
-  //http://en.wikipedia.org/wiki/Luhn_algorithm
+
   it("check digit",function() {
     var luhn = new Luhn(34567);
     expect(luhn.checkDigit).toEqual(7);
