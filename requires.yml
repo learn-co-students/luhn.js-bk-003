@@ -1,6 +1,6 @@
 # A list of javascript files required for the project, in dependency order
 javascripts:
   files:
-    - relative/path/to/a/file/here
+    - lib/luhn.js
   specs:
-    - relative/path/to/a/spec/file
+    - spec/luhn.spec.js
