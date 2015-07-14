@@ -1,8 +1,3 @@
----
-languages: javascript
-tags: math, oo
----
-
 # Luhn
 
 ## Background
